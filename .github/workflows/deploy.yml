@@ -1,4 +1,4 @@
-name: Victor & Iris — Deploy Portfolio
+name: Deploy Portfolio
 
 on:
   push:
@@ -38,6 +38,15 @@ jobs:
 
       - name: Create SPA fallback
         run: cp dist/index.html dist/404.html
+
+      - name: Verify build
+        run: |
+          echo "=== DIST ==="
+          find dist -maxdepth 2 -type f | sort
+          echo "=== INDEX ==="
+          cat dist/index.html
+          echo "=== 404 ==="
+          cat dist/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

@@ -53,50 +53,159 @@ function SobrePage() {
         description="Somos um laboratório colaborativo onde tecnologia, narrativa e experimentação se encontram. A parceria é compartilhada; as trajetórias pessoais continuam sendo individuais."
       />
 
+      {/* ====================================================== */}
+      {/* NOSSA HISTÓRIA */}
+      {/* ====================================================== */}
+
       <section className="mt-8 rounded-2xl border border-border bg-card p-7 md:p-9">
         <h2 className="text-2xl font-display">
           Nossa história e nossa proposta
         </h2>
 
-        <div className="mt-4 max-w-4xl space-y-4 text-sm leading-relaxed text-muted-foreground">
-          <p>
-           Como vocês se conheceram?
-           A gente se esbarrou pelo algoritmo. Entre 2021 e 2022, o perfil
-            da Iris vivia aparecendo em “pessoas que você talvez conheça”
-            e nas sugestões para seguir. Até que um dia ela me seguiu e
-            respondeu um story com um “kkkkkk”. Dali pra frente,
-            foi só história. A gente se chama de Pompom e Bombom
-            — brincadeira interna que resume bem a gente.
-          </p>
+        <div className="mt-6 max-w-4xl space-y-8 text-sm leading-relaxed text-muted-foreground">
+          {/* COMO SE CONHECERAM */}
 
-          <p>
-            E o primeiro encontro?
-            Foi no nosso primeiro beijo, numa noite em Perus, com o céu aberto
-            e uma conversa que não acabava mais. Eu escrevi no diário naquela
-            madrugada: “quando ela me beijou foi como se o meu tempo tivesse
-            congelado nos lábios dela.” Foi mágico. E continua sendo.
-          </p>
+          <div>
+            <h3 className="mb-2 text-lg font-semibold text-foreground">
+              Como vocês se conheceram?
+            </h3>
 
-          <p>
-            Como é o trabalho de vocês?
-            A Iris é a organização; eu sou o caos criativo. Eu tenho autismo e
-            hiperfoco em ficção, então vivo mergulhado em ideias; ela organiza, 
-            lapida e ajuda a transformar em algo possível. 
-            A gente discute rindo — quem vê de fora acha que é briga combinada,
-            mas é só que as ideias nem sempre batem. Tem música rolando
-            (Rosalía, Maluma, Camilo, Ariana Grande, Ebony, Imagine Dragons...),
-            papel rasgado, rabisco e cola. Bastante cola.
-          </p>
+            <p>
+              A gente se esbarrou pelo algoritmo. Entre 2021 e 2022, o perfil
+              da Iris vivia aparecendo em “pessoas que você talvez conheça” e
+              nas sugestões para seguir. Até que um dia ela me seguiu e
+              respondeu um story com um “kkkkkk”. Dali pra frente, foi só
+              história.
+            </p>
 
-          </p>
-            E quando um projeto não dá certo?
-            A gente insiste até dar certo, mas com pausas pra ficar junto e cuidar
-            da saúde mental. O laboratório não é só produção; é também esse espaço
-            de respirar.
-          </p>
-      
+            <p className="mt-3">
+              A gente se chama de Pompom e Bombom — brincadeira interna que
+              resume bem o tom: a gente se acha, se cutuca e se completa.
+            </p>
+          </div>
+
+          {/* PRIMEIRO ENCONTRO */}
+
+          <div>
+            <h3 className="mb-2 text-lg font-semibold text-foreground">
+              E o primeiro encontro?
+            </h3>
+
+            <p>
+              Foi no nosso primeiro beijo, numa noite em Perus, com o céu
+              aberto e uma conversa que não acabava mais.
+            </p>
+
+            <p className="mt-3">
+              Eu escrevi no diário naquela madrugada:
+            </p>
+
+            <blockquote className="mt-3 border-l-2 border-cyan pl-4 italic text-foreground/90">
+              “quando ela me beijou foi como se o meu tempo tivesse congelado
+              nos lábios dela.”
+            </blockquote>
+
+            <p className="mt-3">
+              Foi mágico. E continua sendo.
+            </p>
+          </div>
+
+          {/* TRABALHO */}
+
+          <div>
+            <h3 className="mb-2 text-lg font-semibold text-foreground">
+              Como é o trabalho de vocês?
+            </h3>
+
+            <p>
+              A Iris é a organização; eu sou o caos criativo. Eu tenho
+              autismo e hiperfoco em ficção, então vivo mergulhado em ideias;
+              ela organiza, lapida e ajuda a transformar em algo possível.
+            </p>
+
+            <p className="mt-3">
+              A gente discute rindo — quem vê de fora acha que é briga
+              combinada, mas é só que as ideias nem sempre batem.
+            </p>
+
+            <p className="mt-3">
+              Tem música rolando (Rosalía, Maluma, Camilo, Ariana Grande,
+              Ebony, Imagine Dragons...), papel rasgado, rabisco e cola.
+              Bastante cola.
+            </p>
+          </div>
+
+          {/* QUANDO UM PROJETO NÃO DÁ CERTO */}
+
+          <div>
+            <h3 className="mb-2 text-lg font-semibold text-foreground">
+              E quando um projeto não dá certo?
+            </h3>
+
+            <p>
+              A gente insiste até dar certo, mas com pausas pra ficar junto e
+              cuidar da saúde mental.
+            </p>
+
+            <p className="mt-3">
+              O laboratório não é só produção; é também esse espaço de
+              respirar.
+            </p>
+          </div>
+
+          {/* PROPOSTA */}
+
+          <div>
+            <h3 className="mb-2 text-lg font-semibold text-foreground">
+              Qual é a proposta de vocês?
+            </h3>
+
+            <p>
+              Construir um ecossistema onde narrativa alimenta tecnologia,
+              tecnologia viabiliza experiências e experiências geram novas
+              histórias.
+            </p>
+
+            <p className="mt-3">
+              Não tratamos cada projeto como algo isolado: tudo conversa.
+            </p>
+
+            <p className="mt-3">
+              A imagem que a gente gosta é de uma cozinha bagunçada, cheia de
+              ingredientes diferentes, da qual sai algo de lamber os beiços.
+              Ou duas crianças de barba montando uma estrutura planetária —
+              algo maior que a gente.
+            </p>
+          </div>
+
+          {/* ALIANÇA */}
+
+          <div>
+            <h3 className="mb-2 text-lg font-semibold text-foreground">
+              E essa aliança?
+            </h3>
+
+            <p>
+              Pra mim, a aliança é como um fio vermelho do destino (
+              <em>akai ito</em>); pra Iris, a aliança é a aliança em si.
+            </p>
+
+            <p className="mt-3">
+              No fim, é isso: uma parceria criativa e romântica, que aparece
+              nos projetos e na linguagem do laboratório.
+            </p>
+
+            <p className="mt-3">
+              As informações profissionais e pessoais de cada um continuam
+              separadas nos perfis, mas a história — essa é nossa.
+            </p>
+          </div>
         </div>
       </section>
+
+      {/* ====================================================== */}
+      {/* O QUE FAZEMOS */}
+      {/* ====================================================== */}
 
       <section className="mt-16">
         <SectionHeader
@@ -112,7 +221,9 @@ function SobrePage() {
               to={area.to}
               className="card-glow group rounded-2xl p-6 transition-transform hover:-translate-y-1"
             >
-              <h3 className="text-lg font-semibold">{area.title}</h3>
+              <h3 className="text-lg font-semibold">
+                {area.title}
+              </h3>
 
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
                 {area.text}
@@ -130,6 +241,10 @@ function SobrePage() {
         </div>
       </section>
 
+      {/* ====================================================== */}
+      {/* PERFIS INDIVIDUAIS */}
+      {/* ====================================================== */}
+
       <section className="mt-16 pb-4">
         <SectionHeader
           eyebrow="Quem somos"
@@ -138,6 +253,8 @@ function SobrePage() {
         />
 
         <div className="mt-8 grid gap-6 md:grid-cols-2">
+          {/* VICTOR */}
+
           <Link
             to="/sobre/victor"
             className="card-glow rounded-2xl p-7 transition-transform hover:-translate-y-1"
@@ -158,6 +275,8 @@ function SobrePage() {
               Ver perfil →
             </span>
           </Link>
+
+          {/* IRIS */}
 
           <Link
             to="/sobre/iris"

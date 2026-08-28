@@ -1,17 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  base: "/victor-iris-portfolio/",
+
   plugins: [
-    TanStackRouterVite(),
     react(),
-    tailwindcss(),
   ],
+
   resolve: {
     alias: {
-      '@': '/src',
+      "@": "/src",
     },
   },
-})
+});

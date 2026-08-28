@@ -1,9 +1,6 @@
 name: Teste Actions
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:

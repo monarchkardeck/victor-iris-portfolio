@@ -60,25 +60,41 @@ function SobrePage() {
 
         <div className="mt-4 max-w-4xl space-y-4 text-sm leading-relaxed text-muted-foreground">
           <p>
-            Victor e Iris trabalham em conjunto em projetos que misturam
-            criação, tecnologia e exploração de ideias. O laboratório existe
-            para transformar conceitos em protótipos, experiências e mundos
-            que possam ser testados, reescritos e aprofundados ao longo do
-            tempo.
+           Como vocês se conheceram?
+           A gente se esbarrou pelo algoritmo. Entre 2021 e 2022, o perfil
+            da Iris vivia aparecendo em “pessoas que você talvez conheça”
+            e nas sugestões para seguir. Até que um dia ela me seguiu e
+            respondeu um story com um “kkkkkk”. Dali pra frente,
+            foi só história. A gente se chama de Pompom e Bombom
+            — brincadeira interna que resume bem a gente.
           </p>
 
           <p>
-            Em vez de tratar cada projeto como algo isolado, a proposta é
-            construir um ecossistema: narrativa pode alimentar tecnologia,
-            tecnologia pode viabilizar uma experiência e uma experiência pode
-            gerar novas histórias e possibilidades.
+            E o primeiro encontro?
+            Foi no nosso primeiro beijo, numa noite em Perus, com o céu aberto
+            e uma conversa que não acabava mais. Eu escrevi no diário naquela
+            madrugada: “quando ela me beijou foi como se o meu tempo tivesse
+            congelado nos lábios dela.” Foi mágico. E continua sendo.
           </p>
 
           <p>
-            Aqui, o trabalho conjunto aparece nos projetos e na linguagem do
-            laboratório; já as informações profissionais e pessoais de cada
-            pessoa ficam separadas em seus próprios perfis.
+            Como é o trabalho de vocês?
+            A Iris é a organização; eu sou o caos criativo. Eu tenho autismo e
+            hiperfoco em ficção, então vivo mergulhado em ideias; ela organiza, 
+            lapida e ajuda a transformar em algo possível. 
+            A gente discute rindo — quem vê de fora acha que é briga combinada,
+            mas é só que as ideias nem sempre batem. Tem música rolando
+            (Rosalía, Maluma, Camilo, Ariana Grande, Ebony, Imagine Dragons...),
+            papel rasgado, rabisco e cola. Bastante cola.
           </p>
+
+          </p>
+            E quando um projeto não dá certo?
+            A gente insiste até dar certo, mas com pausas pra ficar junto e cuidar
+            da saúde mental. O laboratório não é só produção; é também esse espaço
+            de respirar.
+          </p>
+      
         </div>
       </section>
 

@@ -17,7 +17,7 @@ const description =
 // https://seuusuario.github.io/numbium-dungeon/
 //
 const GAME_URL =
-  "https://SEU-LINK-DO-JOGO-AQUI";
+  "https://monarchkardeck.github.io/numbium-dungeon/";
 
 export const Route = createFileRoute("/o-que-fazemos/web")({
   head: () => ({

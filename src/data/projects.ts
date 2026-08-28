@@ -30,7 +30,24 @@ export interface Project {
   collaborators?: string[];
 }
 
-// Adicione aqui apenas os nomes das pessoas que participaram de cada projeto.
+// ============================================================
+// CAMINHO BASE DAS IMAGENS
+// ============================================================
+//
+// Usa o BASE_URL do Vite para funcionar tanto:
+//
+// Local:
+// http://localhost:5173/victor-iris-portfolio/
+//
+// GitHub Pages:
+// https://monarchkardeck.github.io/victor-iris-portfolio/
+//
+// ============================================================
+
+const imageBase = `${import.meta.env.BASE_URL}images/numbium/`;
+
+// Adicione aqui apenas os nomes das pessoas que participaram
+// de cada projeto.
 
 export const projects: Project[] = [
   {
@@ -46,8 +63,11 @@ export const projects: Project[] = [
     fullDescription:
       "Numbium é um universo experimental em construção que combina narrativa, tecnologia, exploração de ideias, inteligência artificial e desenvolvimento de experiências interativas.",
 
-    // Imagem principal do projeto
-    image: "/images/numbium/capa.webp",
+    // ========================================================
+    // CAPA
+    // ========================================================
+
+    image: `${imageBase}capa.webp`,
 
     technologies: [
       "React",
@@ -58,7 +78,7 @@ export const projects: Project[] = [
 
     status: "Em desenvolvimento",
 
-    // Ainda não há links externos definidos
+    // Ainda não há links externos definidos.
     linkProject: "#",
     linkCode: "#",
 
@@ -69,87 +89,85 @@ export const projects: Project[] = [
       "Iris Luiza Ribeiro de Oliveira",
     ],
 
+    // ========================================================
+    // GALERIA
+    // ========================================================
+
     gallery: [
       {
-        image: "/images/numbium/conceito do planeta.webp",
+        image: `${imageBase}conceito do planeta.webp`,
         caption:
           "Conceito do planeta Numbium — um mundo vivo e ancestral que serve como base para o universo.",
       },
 
       {
-        image: "/images/numbium/amanita.webp",
+        image: `${imageBase}amanita.webp`,
         caption:
           "Amanita — conceito de criatura pertencente ao ecossistema de Numbium.",
       },
 
       {
-        image: "/images/numbium/kael.webp",
+        image: `${imageBase}kael.webp`,
         caption:
           "Kael — conceito de personagem do universo de Numbium.",
       },
 
       {
-        image: "/images/numbium/izan.webp",
+        image: `${imageBase}izan.webp`,
         caption:
           "Izan — conceito de personagem do universo de Numbium.",
       },
 
       {
-        image: "/images/numbium/juba.webp",
+        image: `${imageBase}juba.webp`,
         caption:
           "Juba — conceito de personagem do universo de Numbium.",
       },
 
       {
-        image: "/images/numbium/maya.webp",
+        image: `${imageBase}maya.webp`,
         caption:
           "Maya — conceito de personagem do universo de Numbium.",
       },
 
       {
-        image: "/images/numbium/paris.webp",
+        image: `${imageBase}paris.webp`,
         caption:
           "Paris — conceito de personagem do universo de Numbium.",
       },
 
       {
-        image: "/images/numbium/puf-espinhoso.webp",
+        image: `${imageBase}puf-espinhoso.webp`,
         caption:
           "Puf Espinhoso — conceito de criatura do ecossistema de Numbium.",
       },
 
       {
-        image: "/images/numbium/puf.webp",
+        image: `${imageBase}puf.webp`,
         caption:
           "Puf — conceito de criatura do ecossistema de Numbium.",
       },
 
       {
-        image: "/images/numbium/kael.webp",
-        caption:
-          "Kael — estudo visual do personagem.",
-      },
-
-      {
-        image: "/images/numbium/dedos de morto conceito 1.webp",
+        image: `${imageBase}dedos de morto conceito 1.webp`,
         caption:
           "Dedos de Morto — conceito de criatura de Numbium.",
       },
 
       {
-        image: "/images/numbium/dedos de morto conceito 2.webp",
+        image: `${imageBase}dedos de morto conceito 2.webp`,
         caption:
           "Dedos de Morto — variação de conceito da criatura.",
       },
 
       {
-        image: "/images/numbium/dente de sangue conceito 1.webp",
+        image: `${imageBase}dente de sangue conceito 1.webp`,
         caption:
           "Dente de Sangue — conceito de criatura de Numbium.",
       },
 
       {
-        image: "/images/numbium/dente de sangue conceito 2.webp",
+        image: `${imageBase}dente de sangue conceito 2.webp`,
         caption:
           "Dente de Sangue — variação de conceito da criatura.",
       },

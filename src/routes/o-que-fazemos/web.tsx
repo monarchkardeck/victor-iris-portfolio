@@ -186,13 +186,13 @@ function AreaPage() {
               <div className="mt-8 flex flex-wrap gap-3">
 
                 <a
-                  href={GAME_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex rounded-full bg-gradient-to-r from-primary to-purple-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/30 transition-all hover:scale-105 hover:shadow-primary/50"
-                >
-                  ▶ Jogar agora
-                </a>
+  href={GAME_URL}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex rounded-full bg-gradient-to-r from-primary to-purple-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/30 transition-all hover:scale-105 hover:shadow-primary/50"
+>
+  ▶ Jogar agora
+</a>
 
                 <Link
                   to="/numbium"

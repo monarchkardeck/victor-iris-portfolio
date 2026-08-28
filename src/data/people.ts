@@ -74,7 +74,7 @@ export const people: Record<"victor" | "iris", PersonProfile> = {
       "Meu trabalho está na interseção entre tecnologia, criatividade, narrativa e inteligência artificial — onde a lógica encontra a inovação, e processos são transformados em experiências.",
 
     bio:
-      "Profissional multidisciplinar com sólida vivência em operações de alto fluxo, hospitalidade e coordenação de equipes. Minha trajetória combina gestão eficiente de ambientes dinâmicos com a capacidade de estruturar processos, resolver problemas complexos e garantir padrões rigorosos de qualidade e compliance.",
+      "Profissionais multidisciplinares com sólida vivência em operações de alto fluxo, hospitalidade e coordenação de equipes. Nossa trajetória combina gestão eficiente de ambientes dinâmicos com a capacidade de estruturar processos, resolver problemas complexos e garantir padrões rigorosos de qualidade e compliance.",
 
     partnerName: "Iris Luiza Ribeiro de Oliveira",
 

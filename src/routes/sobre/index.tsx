@@ -130,8 +130,8 @@ function SobrePage() {
 
             <p className="mt-3">
               Tem música rolando (Rosalía, Maluma, Camilo, Ariana Grande,
-              Ebony, Imagine Dragons...), papel rasgado, rabisco e cola.
-              Bastante cola.
+              Ebony, Imagine Dragons...), papel rasgado, rabisco e coca cola.
+              Bastante coca cola.
             </p>
           </div>
 

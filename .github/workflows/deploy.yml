@@ -41,12 +41,14 @@ jobs:
 
       - name: Verify build
         run: |
-          echo "=== DIST ==="
-          find dist -maxdepth 2 -type f | sort
-          echo "=== INDEX ==="
+          echo "=== INDEX.HTML ==="
           cat dist/index.html
-          echo "=== 404 ==="
-          cat dist/404.html
+
+          echo "=== FILES ==="
+          find dist -maxdepth 2 -type f | sort
+
+          echo "=== 404.HTML ==="
+          test -f dist/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

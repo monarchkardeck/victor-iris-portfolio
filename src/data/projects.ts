@@ -173,6 +173,33 @@ export const projects: Project[] = [
       },
     ],
   },
+    {
+    id: "jarvis",
+
+    title: "JARVIS — Assistente de IA em desenvolvimento",
+
+    category: "ia",
+
+    description:
+      "Um assistente de inteligência artificial em construção, com foco em memória, ferramentas e integração com serviços digitais.",
+
+    fullDescription:
+      "JARVIS é o nome provisório de um assistente de inteligência artificial para computador. O projeto explora uma arquitetura modular que reúne conversação, memória, integração com modelos de IA locais e em nuvem e ferramentas para executar tarefas digitais com controle de permissões. Atualmente, está passando por uma reestruturação arquitetural, com funcionalidades e integrações sendo avaliadas conforme seu desenvolvimento.",
+
+    image: `${import.meta.env.BASE_URL}images/jarvis/capa.svg`,
+
+    technologies: [
+      "Python",
+      "Inteligência Artificial",
+      "SQLite",
+      "Automação",
+      "Integrações",
+    ],
+
+    status: "Em desenvolvimento",
+
+    route: "/jarvis",
+  },
 ];
 
 // ============================================================

@@ -40,6 +40,44 @@ function AreaPage() {
         </div>
       </section>
 
+      <section className="mt-10 rounded-2xl border border-cyan/30 bg-card p-7 md:p-9">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan">
+              Projeto em destaque
+            </p>
+
+            <h2 className="mt-3 text-2xl font-display">
+              JARVIS — Um assistente de IA em construção
+            </h2>
+          </div>
+
+          <span className="inline-flex rounded-full border border-amber-400/40 bg-amber-400/10 px-3 py-1 text-xs font-semibold text-amber-300">
+            Em desenvolvimento
+          </span>
+        </div>
+
+        <div className="mt-5 space-y-4 text-sm leading-relaxed text-muted-foreground">
+          <p>
+            JARVIS é o nome provisório de um assistente de inteligência
+            artificial em desenvolvimento, criado para explorar uma interação
+            mais integrada entre modelos de IA, memória e ferramentas digitais.
+          </p>
+
+          <p>
+            O projeto busca reunir recursos de conversação, gerenciamento de
+            informações e execução de tarefas em uma arquitetura modular,
+            com atenção às permissões e ao controle das ações realizadas.
+          </p>
+
+          <p>
+            Atualmente, o projeto está em reestruturação arquitetural. Suas
+            funcionalidades e integrações serão apresentadas de acordo com
+            sua implementação e validação.
+          </p>
+        </div>
+      </section>
+      
       <section className="mt-10">
         <h2 className="text-2xl font-display">Como trabalhamos nessa área</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">

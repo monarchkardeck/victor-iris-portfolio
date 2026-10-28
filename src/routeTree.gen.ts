@@ -10,7 +10,9 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ApoieRouteImport } from './routes/apoie'
 import { Route as ContatoRouteImport } from './routes/contato'
+import { Route as JarvisRouteImport } from './routes/jarvis'
 import { Route as NumbiumRouteImport } from './routes/numbium'
 import { Route as ProjetosRouteImport } from './routes/projetos'
 import { Route as OQueFazemosIaRouteImport } from './routes/o-que-fazemos/ia'
@@ -25,9 +27,19 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApoieRoute = ApoieRouteImport.update({
+  id: '/apoie',
+  path: '/apoie',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ContatoRoute = ContatoRouteImport.update({
   id: '/contato',
   path: '/contato',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const JarvisRoute = JarvisRouteImport.update({
+  id: '/jarvis',
+  path: '/jarvis',
   getParentRoute: () => rootRouteImport,
 } as any)
 const NumbiumRoute = NumbiumRouteImport.update({
@@ -73,7 +85,9 @@ const SobreVictorRoute = SobreVictorRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/apoie': typeof ApoieRoute
   '/contato': typeof ContatoRoute
+  '/jarvis': typeof JarvisRoute
   '/numbium': typeof NumbiumRoute
   '/projetos': typeof ProjetosRoute
   '/o-que-fazemos/ia': typeof OQueFazemosIaRoute
@@ -85,7 +99,9 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/apoie': typeof ApoieRoute
   '/contato': typeof ContatoRoute
+  '/jarvis': typeof JarvisRoute
   '/numbium': typeof NumbiumRoute
   '/projetos': typeof ProjetosRoute
   '/o-que-fazemos/ia': typeof OQueFazemosIaRoute
@@ -98,7 +114,9 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/apoie': typeof ApoieRoute
   '/contato': typeof ContatoRoute
+  '/jarvis': typeof JarvisRoute
   '/numbium': typeof NumbiumRoute
   '/projetos': typeof ProjetosRoute
   '/o-que-fazemos/ia': typeof OQueFazemosIaRoute
@@ -112,7 +130,9 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/apoie'
     | '/contato'
+    | '/jarvis'
     | '/numbium'
     | '/projetos'
     | '/o-que-fazemos/ia'
@@ -124,7 +144,9 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/apoie'
     | '/contato'
+    | '/jarvis'
     | '/numbium'
     | '/projetos'
     | '/o-que-fazemos/ia'
@@ -136,7 +158,9 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/apoie'
     | '/contato'
+    | '/jarvis'
     | '/numbium'
     | '/projetos'
     | '/o-que-fazemos/ia'
@@ -149,7 +173,9 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ApoieRoute: typeof ApoieRoute
   ContatoRoute: typeof ContatoRoute
+  JarvisRoute: typeof JarvisRoute
   NumbiumRoute: typeof NumbiumRoute
   ProjetosRoute: typeof ProjetosRoute
   OQueFazemosIaRoute: typeof OQueFazemosIaRoute
@@ -169,11 +195,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/apoie': {
+      id: '/apoie'
+      path: '/apoie'
+      fullPath: '/apoie'
+      preLoaderRoute: typeof ApoieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/contato': {
       id: '/contato'
       path: '/contato'
       fullPath: '/contato'
       preLoaderRoute: typeof ContatoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/jarvis': {
+      id: '/jarvis'
+      path: '/jarvis'
+      fullPath: '/jarvis'
+      preLoaderRoute: typeof JarvisRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/numbium': {
@@ -237,7 +277,9 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ApoieRoute: ApoieRoute,
   ContatoRoute: ContatoRoute,
+  JarvisRoute: JarvisRoute,
   NumbiumRoute: NumbiumRoute,
   ProjetosRoute: ProjetosRoute,
   OQueFazemosIaRoute: OQueFazemosIaRoute,
